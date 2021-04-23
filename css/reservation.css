@@ -1,0 +1,65 @@
+body{
+      
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+    right:0px ;
+    background-image: url(/img/bg2.png);
+    box-shadow: inset 0 0 0 1000px rgba(45, 51, 77,0.7);
+    margin-right: 0px;
+    margin-top: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+      }
+    
+    h1{
+        position: absolute;
+    left: 540px;
+    right: 541px;
+    top: 100px;
+    bottom: 465px;
+    
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 84px;
+    text-align: center;
+    
+    color: #FCB371;
+    }
+    form{
+        display: flexbox;
+        margin-top: 0px;
+        margin-left:450px;
+        width:35%;
+    }
+
+    #nation{
+
+        margin-top: 0px;
+        border-radius: 5px;
+        padding: 5px 5px 5px;
+    }
+    .container{
+        width:auto;
+     margin: -30px;
+     margin-left: -10px;
+     margin-right: -12px;
+        padding-left: 10px;
+    }
+.submit{
+    width:450px;    
+ background-color: orangered;
+ border: 1px solid orangered;
+ border-radius: 5px;
+ padding: 10px 10px;
+ cursor:pointer;
+ margin: 0px;
+ overflow: hidden;   
+ color: white;
+ font-family: 'SF Pro Display', arial, sans-serif;
+ background-repeat:no-repeat;
+}
